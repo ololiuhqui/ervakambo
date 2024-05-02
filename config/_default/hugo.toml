@@ -4,8 +4,8 @@ title = 'Erva Kambo'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 copyright = 'Made by Ludovico Caluori - 2024'
-relativeURLS = true
 enableRobotsTXT = true
+
 
 
 [module]

@@ -1,17 +1,17 @@
 /* CUSTOM FONTS */
 @font-face {
   font-family: 'JosefinSans';
-  src: url(/fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
+  src: url(../fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
 }
 @font-face {
   font-family: 'YesevaOne';
-  src: url(/fonts/YesevaOne-Regular.ttf) format('truetype');
+  src: url(../fonts/YesevaOne-Regular.ttf) format('truetype');
 }
 
 /* ICONS */
 @font-face {
   font-family: bootstrap-icons;
-  src: url(/fonts/bootstrap-icons.woff);
+  src: url(../fonts/bootstrap-icons.woff);
 }
 @import 'node_modules/bootstrap-icons/font/bootstrap-icons.scss';
 /*  */
@@ -59,7 +59,7 @@ html {
 /*  */
 
 .background-image {
-  background-image: url('/background-home-3.png');
+  background-image: url('../background-home-3.png');
   background-position: 10%;
   background-repeat: no-repeat;
   background-size: cover;
