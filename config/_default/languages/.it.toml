@@ -1,0 +1,22 @@
+# contentDir = 'content/it'
+disabled = false
+languageCode = 'it-IT'
+languageName = 'Italian'
+title = 'Erva Kambo | Psicologa' # This will go in the Header
+
+[params]
+  name = "Erva Kambo"
+  subtitle = 'Psicologa a Firenze'
+  [params.home]
+    mainButton = "Contattami"
+    secondaryButton = "Chi sono?"
+    descriptionTitle = "Che cosa troverai da me?"
+    description = """Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e
+ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla
+fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai
+l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore consapevolezza delle
+tue emozioni, pensieri e comportamenti. Insieme esploreremo le difficoltà in ambito relazionale,
+familiare, lavorativo, di coppia, culturale e di genere. La tua crescita personale è la mia priorità e
+sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo benessere emotivo."""
+
+[params.social]

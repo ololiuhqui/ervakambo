@@ -1,0 +1,151 @@
+# contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageName = 'English'
+title = 'Erva Kambo' # This will go in the Header as well
+Copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+
+# Change single params to false to remove from rendering
+[params]
+  subtitle = "Psychologist" # This goes in the header and in the site title
+
+  # PAGES
+  [params.homepage]
+    preTitle = 'Psychologist in Florence'
+    title = "Erva Kambo"
+    mainButton = "Contact me"
+    mainButtonRef = "/contacts"
+    [params.homepage.description]
+    enabled = true
+    # You can use some markdown safely for the description as long as you don't include line breaks
+    intro= """Are you feeling burnt out and exhausted from all the demands and
+        stresses in your life? Do you struggle to understand or name your
+        feelings, needs, and desires? Maybe you’re challenged in your
+        relationships to communicate freely, and you often find yourself feeling
+        disconnected, unheard or unsafe. It’s hard to feel good when you’re
+        feeling depleted and overwhelmed. **Stress, trauma** and **loss** can make it
+        hard to stay on top of our responsibilities and manage problems like
+        **anxiety** and **depression**. Despite the challenges that have gotten you down
+        lately, you don’t have to be stuck here. You can heal all parts of you
+        and reclaim your sense of wholeness and worthiness. You’re not alone in
+        feeling this way.
+        """
+    secondTitle = "Meet Erva Kambo, LP"
+    paragraph = """I am a licensed psychologist Florence-based (Italy).
+        I like to help people feel understood, face their pain and joy, and find
+        inner strength in difficult moments of their lives. Through a
+        relationship based on trust and empathy it will be possible to create a
+        safe and welcoming space in which you will have the opportunity to
+        deeply explore yourself and develop greater awareness of your emotions,
+        thoughts and behaviors. Together, we’ll explore issues related to
+        family, work, identity, gender, race and culture. I can help you move
+        towards a version of your life where emotional and physical discomfort
+        no longer dictate your decisions. Join me in a process of discovery and
+        growth!"""
+
+[params.office]
+ description = "You will find a welcoming office in the center of the beautiful city of Florence."
+ buttonText = "Get directions" 
+ buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
+ mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23046.70708393103!2d11.250820486945312!3d43.77621354501747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54126faf8b3d%3A0x37e724bfc089c27a!2sVia%20dei%20della%20Robbia%2C%2023%2C%2050132%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1714143516043!5m2!1sit!2sit" # google maps embed link here
+
+[params.contacts]
+  title = "Get in touch!"
+  formCallToAction = "Compile the form with your data and your message to send me a mail."
+  socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
+
+[params.services]
+  description = """ I offer different services that aim to address different needs."""
+  [params.services.list]
+    # You can add as much params.services.list.N as you like
+    [params.services.list.0]
+      title= "Promotion of well-being and self-esteem"
+      description= ""
+    [params.services.list.1]
+      title = "Personal growth and self-discovery"
+      description= ""
+    [params.services.list.2]
+      title = "Improve relationships and communication skills"
+      description= ""
+    [params.services.list.3]
+      title = "Anxiety and depression"
+      description= ""
+    [params.services.list.4]
+      title = "Behavioral difficulties"
+      description= ""
+    [params.services.list.5]
+      title = "Emotional dependence"
+      description= ""
+    [params.services.list.6]
+      title = "Manage stress and build resilience"
+      description= ""
+    [params.services.list.7]
+      title = "Improve performance and achieve goals"
+      description= ""
+    [params.services.list.8]
+      title = "Processing grief and dealing with trauma"
+      description= ""
+    [params.services.list.9]
+      title = "Stress management and personal crises"
+      description= ""
+  
+# /. PAGES
+
+[params.socials]
+  enabled = true # enables/disables the whole social section
+  callToAction= "Get connected with me on social networks >"
+      [[params.socials.link]]
+        name = "instagram"
+        link = "https://www.instagram.com/ervakambo/"
+      [[params.socials.link]]
+        name = "linkedin"
+        link = "https://www.linkedin.com/in/erva-kambo"
+      [[params.socials.link]]
+        name = "whatsapp"
+        link = "https://wa.me/393801783513"
+      # You can add other socials here by copypasting the above section and
+      # selecting the right name for the icon from here https://icons.getbootstrap.com/
+
+[params.schedules]
+  enabledFooter = false
+  enabledContacts = true
+  title = "My Availability" # For contacts page only
+  [params.schedules.days]
+  # Use something like "Monday: 9-13" for each day
+  # if left empty it is disabled (default)
+    day1 = "Monday: 9am – 7pm"
+    day2 = "Tuesday: 9am – 7pm"
+    day3 = "Wednesday: 9am – 7pm"
+    day4 = "Thursday: 9am – 7pm"
+    day5 = "Friday: 9am – 7pm"
+    day6 = false
+    day7 = false
+
+[params.footer]
+  [params.footer.navigate]
+  heading = "Navigate"   
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section
+  heading = "Contact"
+  address = "Via della Robbia 23 50132, Firenze"
+  mail = "psicologa.kambo@gmail.com"
+  mail2 = "erva.kambo@psypec.it"
+  phone = "+39 3801783513"
+ 
+[menus]
+  [[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "Services"
+  pageRef = "/services"
+  weight = 2
+  [[menus.main]]
+  name = "The Office"
+  pageRef = "/office"
+  weight = 3
+  [[menus.main]]
+  name = "Contacts"
+  pageRef = "/contacts"
+  weight = 4

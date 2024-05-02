@@ -1,0 +1,17 @@
+baseURL = 'https://ololiuhqui.github.io/'
+languageCode = ''
+title = 'Erva Kambo'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+copyright = 'Made by Ludovico Caluori - 2024'
+relativeURLS = true
+enableRobotsTXT = true
+
+
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
+      [[module.mounts]]
+      source = 'assets'
+      target = 'assets'
