@@ -2,7 +2,6 @@ baseURL = 'https://ololiuhqui.github.io/ervakambo/'
 languageCode = ''
 title = 'Erva Kambo'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
 copyright = 'Made by Ludovico Caluori - 2024'
 enableRobotsTXT = true
 
