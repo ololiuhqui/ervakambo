@@ -31,6 +31,34 @@
             <a class="nav-link" href="{{ .URL }}">{{.Name}}</a>
           </li>
           {{ end }}
+          <li class="vr ms-1 d-none d-lg-block"></li>
+          {{ if .Site.IsMultiLingual}}
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center justify-content-center"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="bi bi-globe me-1"></i>
+              {{.Site.Language.LanguageName}}
+              <i class="bi bi-caret-down-fill ms-1"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {{range .Site.Languages}}
+              <a
+                class="dropdown-item nav-link text-center"
+                href="{{ .  | absURL}} "
+                >{{.LanguageName}}
+              </a>
+              {{end}}
+            </div>
+          </li>
+          {{ end }}
         </ul>
       </div>
     </div>

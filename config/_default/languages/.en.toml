@@ -14,7 +14,7 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
     preTitle = 'Psychologist in Florence'
     title = "Erva Kambo"
     mainButton = "Contact me"
-    mainButtonRef = "/contacts"
+    mainButtonRef = "contacts"
     [params.homepage.description]
     enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks

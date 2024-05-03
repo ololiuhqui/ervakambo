@@ -89,7 +89,7 @@ p {
   max-height: 50px;
 }
 
-.nav-link {
+.nav-item .nav-link {
   position: relative;
   text-transform: uppercase;
   color: tint-color($body-color, 15%);
@@ -114,7 +114,15 @@ p {
     transform-origin: left;
     transform: scaleX(1);
   }
+
+  &:not(:last-child) {
+    width: 160px;
+    i {
+      font-size: 15px;
+    }
+  }
 }
+
 /* END-NAVBAR */
 
 /* BUTTONS */
