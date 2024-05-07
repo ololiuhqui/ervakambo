@@ -4,7 +4,7 @@ languageCode = 'en-US'
 languageName = 'English'
 title = 'Erva Kambo' # This will go in the Header as well
 copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
-contentDir = "content/en"
+contentDir = "content/sq"
 
 # Change single params to false to remove from rendering
 [params]

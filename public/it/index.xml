@@ -7,5 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>© 2024 all rights reserved - Made by Ludovico Caluori 🎨</copyright><atom:link href="https://ololiuhqui.github.io/ervakambo/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consulenza</title>
+      <link>https://ololiuhqui.github.io/ervakambo/it/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ololiuhqui.github.io/ervakambo/it/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contatti</title>
+      <link>https://ololiuhqui.github.io/ervakambo/it/contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ololiuhqui.github.io/ervakambo/it/contacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lo Studio</title>
+      <link>https://ololiuhqui.github.io/ervakambo/it/office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ololiuhqui.github.io/ervakambo/it/office/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

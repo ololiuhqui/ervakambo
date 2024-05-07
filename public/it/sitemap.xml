@@ -6,7 +6,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ololiuhqui.github.io/ervakambo/categories/"
+                href="https://ololiuhqui.github.io/ervakambo/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -19,11 +19,45 @@
                 href="https://ololiuhqui.github.io/ervakambo/it/categories/"
                 />
   </url><url>
+    <loc>https://ololiuhqui.github.io/ervakambo/it/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ololiuhqui.github.io/ervakambo/en/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ololiuhqui.github.io/ervakambo/it/services/"
+                />
+  </url><url>
+    <loc>https://ololiuhqui.github.io/ervakambo/it/contacts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ololiuhqui.github.io/ervakambo/en/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ololiuhqui.github.io/ervakambo/it/contacts/"
+                />
+  </url><url>
     <loc>https://ololiuhqui.github.io/ervakambo/it/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ololiuhqui.github.io/ervakambo/"
+                href="https://ololiuhqui.github.io/ervakambo/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -36,11 +70,28 @@
                 href="https://ololiuhqui.github.io/ervakambo/it/"
                 />
   </url><url>
+    <loc>https://ololiuhqui.github.io/ervakambo/it/office/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ololiuhqui.github.io/ervakambo/en/office/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/office/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ololiuhqui.github.io/ervakambo/it/office/"
+                />
+  </url><url>
     <loc>https://ololiuhqui.github.io/ervakambo/it/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ololiuhqui.github.io/ervakambo/tags/"
+                href="https://ololiuhqui.github.io/ervakambo/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
