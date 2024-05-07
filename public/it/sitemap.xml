@@ -10,6 +10,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="it"
                 href="https://ololiuhqui.github.io/ervakambo/it/categories/"
                 />
@@ -22,6 +27,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="it"
                 href="https://ololiuhqui.github.io/ervakambo/it/"
                 />
@@ -31,6 +41,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ololiuhqui.github.io/ervakambo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ololiuhqui.github.io/ervakambo/sq/tags/"
                 />
     <xhtml:link
                 rel="alternate"

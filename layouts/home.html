@@ -7,32 +7,39 @@
       <div class="fs-3 fw-light text-muted">
         {{ .Site.Params.homepage.preTitle }}
       </div>
-      <h1 class="display-2 fw-bolder">
+      <h1 class="display-1 fw-bolder">
         <span class="d-inline">{{ .Site.Params.homepage.title }}</span>
       </h1>
-      <p>{{ .Site.Params.homepage.description.intro | markdownify}}</p>
+      <p class="text-justify">
+        {{ .Site.Params.homepage.description.intro | markdownify}}
+      </p>
     </div>
   </div>
   <div
     class="col-lg-5 d-flex flex-row justify-content-center justify-content-xl-end"
   >
     <!-- profile picture-->
-    <img class="rounded img-fluid profile-img shadow" src="{{ "img/profile2.jpg"
+    <img class="rounded img-fluid profile-img shadow" src="{{ "img/profile.jpg"
     | absURL}}" alt="Picture of the psychologist Erva Kambo" />
   </div>
 </div>
 <!-- Description -->
 {{ if .Site.Params.homepage.description.enabled}}
-<div class="row gx-5 mt-5 align-items-center">
+<div class="row my-5 align-items-center">
   <h2>{{ .Site.Params.homepage.description.secondTitle}}</h2>
-  <p>{{ .Site.Params.homepage.description.paragraph | markdownify}}</p>
+  <p class="text-justify">
+    {{ .Site.Params.homepage.description.paragraph | markdownify}}
+  </p>
+  <p class="text-justify">
+    {{ .Site.Params.homepage.description.paragraph2 | markdownify}}
+  </p>
 </div>
 {{ end }}
-<div class="d-grid gap-3 d-sm-flex justify-content-sm-center my-4">
-  <!-- First button -->
+<div class="d-grid gap-3 d-sm-flex justify-content-sm-center my-3">
+  <!-- button -->
   <a
-    class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder shadow-sm"
-    href="{{ .Site.Params.homepage.mainButtonRef | absLangURL }}"
+    class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+    href="{{ .Site.Params.homepage.mainButtonRef }}"
     >{{ .Site.Params.homepage.mainButton }}</a
   >
 </div>

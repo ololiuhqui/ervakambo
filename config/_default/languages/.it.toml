@@ -1,9 +1,10 @@
 # contentDir = 'content/en'
 disabled = false
-languageCode = 'it-IT'
-languageName = 'Italian'
+languageCode = 'en-US'
+languageName = 'English'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
+copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+contentDir = "content/en"
 
 # Change single params to false to remove from rendering
 [params]
@@ -11,25 +12,40 @@ copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
 
   # PAGES
   [params.homepage]
-    preTitle = 'Psicologa a Firenze'
+    preTitle = 'Psychologist in Florence'
     title = "Erva Kambo"
-    mainButton = "Contattami"
-    mainButtonRef = "contacts" # Insert just the name of the page you want the button to link to
+    mainButton = "Contact me"
+    mainButtonRef = "https://wa.me/393801783513"
     [params.homepage.description]
     enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks
-    intro= """Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e
-        ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla
-        fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai
-        l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore consapevolezza delle
-        tue emozioni, pensieri e comportamenti. Insieme esploreremo le difficoltà in ambito relazionale,
-        familiare, lavorativo, di coppia, culturale e di genere. La tua crescita personale è la mia priorità e
-        sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo benessere emotivo.
-                """
-    secondTitle = ""
-    paragraph = """"""
+    intro= """Are you feeling burnt out and exhausted from all the demands and
+        stresses in your life? Do you struggle to understand or name your
+        feelings, needs, and desires? Maybe you’re challenged in your
+        relationships to communicate freely, and you often find yourself feeling
+        disconnected, unheard or unsafe. It’s hard to feel good when you’re
+        feeling depleted and overwhelmed. **Stress, trauma** and **loss** can make it
+        hard to stay on top of our responsibilities and manage problems like
+        **anxiety** and **depression**. Despite the challenges that have gotten you down
+        lately, you don’t have to be stuck here. You can heal all parts of you
+        and reclaim your sense of wholeness and worthiness. You’re not alone in
+        feeling this way!
+        """
+    secondTitle = "Meet Erva Kambo, LP"
+    paragraph = """I am a licensed psychologist Florence-based (Italy).
+        I like to help people feel understood, face their pain and joy, and find
+        inner strength in difficult moments of their lives. Through a
+        relationship based on trust and empathy it will be possible to create a
+        safe and welcoming space in which you will have the opportunity to
+        deeply explore yourself and develop greater awareness of your emotions,
+        thoughts and behaviors. Together, we’ll explore issues related to
+        family, work, identity, gender, race and culture. I can help you move
+        towards a version of your life where emotional and physical discomfort
+        no longer dictate your decisions. Join me in a process of discovery and
+        growth!"""
 
 [params.office]
+  title = "The Office"
  description = "You will find a welcoming office in the center of the beautiful city of Florence."
  buttonText = "Get directions" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
@@ -37,10 +53,11 @@ copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
 
 [params.contacts]
   title = "Get in touch!"
-  formCallToAction = "Compile the form with your data and your message to send me a mail."
+  formCallToAction = ""
   socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
 
 [params.services]
+  title = "Services"
   description = """ I offer different services that aim to address different needs."""
   [params.services.list]
     # You can add as much params.services.list.N as you like
@@ -93,9 +110,9 @@ copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
 
 [params.schedules]
-  enabledFooter = false
+  enabledFooter = false # This will add the schedules on the footer too
   enabledContacts = true
-  title = "My Availability" # For contacts page only
+  title = "Office hours" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
@@ -104,10 +121,12 @@ copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
     day3 = "Wednesday: 9am – 7pm"
     day4 = "Thursday: 9am – 7pm"
     day5 = "Friday: 9am – 7pm"
-    day6 = false
-    day7 = false
+    day6 = ""
+    day7 = ""
 
 [params.footer]
+  extraDescription = "Tuscany Order of Psychologists No. 10278"
+  vat = "VAT No. 07339790482"
   [params.footer.navigate]
   heading = "Navigate"   
   [params.footer.contacts]
@@ -117,8 +136,10 @@ copyright = "© 2024 Tutti i diritti riservati - by Ludovico Caluori 🎨"
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
+  
  
 [menus]
+# If you add a new language remember to change the pageRef to match the desired content folder!
   [[menus.main]]
   name = "Home"
   pageRef = "/"

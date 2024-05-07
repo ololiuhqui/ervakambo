@@ -6,7 +6,6 @@ copyright = 'Made by Ludovico Caluori - 2024'
 enableRobotsTXT = true
 
 
-
 [module]
     [[module.mounts]]
       source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"

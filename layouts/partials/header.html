@@ -2,7 +2,7 @@
 <header class="shadow-sm sticky-top">
   <nav class="navbar navbar-expand-lg navbar-light py-3">
     <div class="container px-5">
-      <a class="navbar-brand" href="{{ .Site.BaseURL}}"
+      <a class="navbar-brand" href="{{ absLangURL "" }}"
         ><!-- <span><img class="img-fluid logo mx-2" src="/logo.svg" alt="" /></span> -->
         <span class="fw-bolder"
           >{{ .Site.Title}} <br />
@@ -33,29 +33,26 @@
           {{ end }}
           <li class="vr ms-1 d-none d-lg-block"></li>
           {{ if .Site.IsMultiLingual}}
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle d-flex align-items-center justify-content-center"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+          <li class="mt-2 m-lg-0 nav-item">
+            <div
+              class="d-flex flex-row justify-content-center align-items-center"
             >
-              <i class="bi bi-globe me-1"></i>
-              {{.Site.Language.LanguageName}}
-              <i class="bi bi-caret-down-fill ms-1"></i>
-            </a>
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {{range .Site.Languages}}
+              {{ range $.Site.Languages}}
+              <!-- concatenating more strings to have the correct path for language flags -->
+              {{ $langFlagPath := printf "%s" ".svg" | printf "%s%s" . | printf
+              "%s%s" "img/flags/" | printf "%s" }}
+              <!--  -->
               <a
-                class="dropdown-item nav-link text-center"
-                href="{{ .  | absURL}} "
-                >{{.LanguageName}}
+                class="d-flex align-items-center"
+                href="{{ $.Site.BaseURL }}{{.}}/{{$.Page.Slug}} "
+              >
+                <img
+                  src="{{$langFlagPath | absURL}}"
+                  class="language-flag shadow-sm"
+                  alt=""
+                />
+                {{end }}
               </a>
-              {{end}}
             </div>
           </li>
           {{ end }}

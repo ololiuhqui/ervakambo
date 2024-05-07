@@ -4,6 +4,7 @@ languageCode = 'en-US'
 languageName = 'English'
 title = 'Erva Kambo' # This will go in the Header as well
 copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+contentDir = "content/en"
 
 # Change single params to false to remove from rendering
 [params]
@@ -14,7 +15,7 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
     preTitle = 'Psychologist in Florence'
     title = "Erva Kambo"
     mainButton = "Contact me"
-    mainButtonRef = "contacts"
+    mainButtonRef = "https://wa.me/393801783513"
     [params.homepage.description]
     enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks
@@ -28,7 +29,7 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
         **anxiety** and **depression**. Despite the challenges that have gotten you down
         lately, you don’t have to be stuck here. You can heal all parts of you
         and reclaim your sense of wholeness and worthiness. You’re not alone in
-        feeling this way.
+        feeling this way!
         """
     secondTitle = "Meet Erva Kambo, LP"
     paragraph = """I am a licensed psychologist Florence-based (Italy).
@@ -41,9 +42,13 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
         family, work, identity, gender, race and culture. I can help you move
         towards a version of your life where emotional and physical discomfort
         no longer dictate your decisions. Join me in a process of discovery and
-        growth!"""
+        growth!
+        """
+    paragraph2= "I currently provide services in italian, english and albanian!"
+
 
 [params.office]
+  title = "The Office"
  description = "You will find a welcoming office in the center of the beautiful city of Florence."
  buttonText = "Get directions" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
@@ -51,43 +56,51 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
 
 [params.contacts]
   title = "Get in touch!"
-  formCallToAction = "Compile the form with your data and your message to send me a mail."
-  socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
+  formCallToAction = ""
+  socialCallToAction = "Get in touch with me on the social platforms below. Feel free to text me on Whatsapp!"
 
 [params.services]
-  description = """ I offer different services that aim to address different needs."""
+  title = "Services"
+  description = """ I offer individual and couples psychological support and consultation. My approach
+addresses the mind and body and draws from Cognitive Behavioral Therapy (CBT) and wellness
+practices. Our sessions will last 60min long in presence or online. You can expect for us to work on
+the following areas:"""
   [params.services.list]
     # You can add as much params.services.list.N as you like
     [params.services.list.0]
       title= "Promotion of well-being and self-esteem"
       description= ""
-    [params.services.list.1]
+    [params.services.list.01]
       title = "Personal growth and self-discovery"
       description= ""
-    [params.services.list.2]
+    [params.services.list.02]
       title = "Improve relationships and communication skills"
       description= ""
-    [params.services.list.3]
+    [params.services.list.03]
       title = "Anxiety and depression"
       description= ""
-    [params.services.list.4]
+    [params.services.list.04]
       title = "Behavioral difficulties"
       description= ""
-    [params.services.list.5]
+    [params.services.list.05]
       title = "Emotional dependence"
       description= ""
-    [params.services.list.6]
+    [params.services.list.06]
       title = "Manage stress and build resilience"
       description= ""
-    [params.services.list.7]
+    [params.services.list.07]
       title = "Improve performance and achieve goals"
       description= ""
-    [params.services.list.8]
+    [params.services.list.08]
       title = "Processing grief and dealing with trauma"
       description= ""
-    [params.services.list.9]
+    [params.services.list.09]
       title = "Stress management and personal crises"
       description= ""
+    [params.services.list.10]
+      title= "Expat and life abroad"
+      description= ""
+
   
 # /. PAGES
 
@@ -99,7 +112,7 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
         link = "https://www.instagram.com/ervakambo/"
       [[params.socials.link]]
         name = "linkedin"
-        link = "https://www.linkedin.com/in/erva-kambo"
+        link = "https://www.linkedin.com/in/ervakambo/"
       [[params.socials.link]]
         name = "whatsapp"
         link = "https://wa.me/393801783513"
@@ -107,9 +120,9 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
 
 [params.schedules]
-  enabledFooter = false
+  enabledFooter = false # This will add the schedules on the footer too
   enabledContacts = true
-  title = "My Availability" # For contacts page only
+  title = "Office hours" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
@@ -118,10 +131,12 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
     day3 = "Wednesday: 9am – 7pm"
     day4 = "Thursday: 9am – 7pm"
     day5 = "Friday: 9am – 7pm"
-    day6 = false
-    day7 = false
+    day6 = ""
+    day7 = ""
 
 [params.footer]
+  extraDescription = "Tuscany Order of Psychologists No. 10278"
+  vat = "VAT No. 07339790482"
   [params.footer.navigate]
   heading = "Navigate"   
   [params.footer.contacts]
@@ -131,8 +146,10 @@ copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
+  
  
 [menus]
+# If you add a new language remember to change the pageRef to match the desired content folder!
   [[menus.main]]
   name = "Home"
   pageRef = "/"
