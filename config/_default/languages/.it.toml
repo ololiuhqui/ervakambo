@@ -1,102 +1,101 @@
 # contentDir = 'content/en'
 disabled = false
-languageCode = 'en-US'
-languageName = 'English'
+languageCode = 'it-IT'
+languageName = 'Italian'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+copyright = "© 2024 all rights reserved - Design by Ludovico Caluori 🎨"
 contentDir = "content/it"
 
 # Change single params to false to remove from rendering
 [params]
-  subtitle = "Psychologist" # This goes in the header and in the site title
+  subtitle = "Psicologa" # This goes in the header and in the site title
 
   # PAGES
   [params.homepage]
-    preTitle = 'Psychologist in Florence'
+    preTitle = 'Psicologa a Firenze'
     title = "Erva Kambo"
-    mainButton = "Contact me"
+    mainButton = "Contattami"
     mainButtonRef = "https://wa.me/393801783513"
     [params.homepage.description]
     enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks
-    intro= """Are you feeling burnt out and exhausted from all the demands and
-        stresses in your life? Do you struggle to understand or name your
-        feelings, needs, and desires? Maybe you’re challenged in your
-        relationships to communicate freely, and you often find yourself feeling
-        disconnected, unheard or unsafe. It’s hard to feel good when you’re
-        feeling depleted and overwhelmed. **Stress, trauma** and **loss** can make it
-        hard to stay on top of our responsibilities and manage problems like
-        **anxiety** and **depression**. Despite the challenges that have gotten you down
-        lately, you don’t have to be stuck here. You can heal all parts of you
-        and reclaim your sense of wholeness and worthiness. You’re not alone in
-        feeling this way!
+    intro= """Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e
+        ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla
+        fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai
+        l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore **consapevolezza delle
+        tue emozioni, pensieri e comportamenti**. Insieme esploreremo le difficoltà in ambito relazionale,
+        familiare, lavorativo, di coppia, culturale e di genere. La tua **crescita personale** è la mia priorità e
+        sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo **benessere emotivo**.
         """
-    secondTitle = "Meet Erva Kambo, LP"
-    paragraph = """I am a licensed psychologist Florence-based (Italy).
-        I like to help people feel understood, face their pain and joy, and find
-        inner strength in difficult moments of their lives. Through a
-        relationship based on trust and empathy it will be possible to create a
-        safe and welcoming space in which you will have the opportunity to
-        deeply explore yourself and develop greater awareness of your emotions,
-        thoughts and behaviors. Together, we’ll explore issues related to
-        family, work, identity, gender, race and culture. I can help you move
-        towards a version of your life where emotional and physical discomfort
-        no longer dictate your decisions. Join me in a process of discovery and
-        growth!"""
+    secondTitle = ""
+    paragraph = """"""
 
 [params.office]
-  title = "The Office"
- description = "You will find a welcoming office in the center of the beautiful city of Florence."
- buttonText = "Get directions" 
+ title = "Lo Studio"
+ description = "Troverai un ufficio accogliente nel centro della bellissima città di Firenze."
+ buttonText = "Indicazioni" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23046.70708393103!2d11.250820486945312!3d43.77621354501747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54126faf8b3d%3A0x37e724bfc089c27a!2sVia%20dei%20della%20Robbia%2C%2023%2C%2050132%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1714143516043!5m2!1sit!2sit" # google maps embed link here
 
 [params.contacts]
-  title = "Get in touch!"
+  title = "Invia la tua richiesta!"
   formCallToAction = ""
-  socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
+  socialCallToAction = "Contattami sulle piattaforme social qui sotto. Sentiti libero di scrivermi su Whatsapp!"
+  [params.contacts.form]
+    firstname = "Nome*"
+    lastname = "Cognome*"
+    email = "Email*"
+    Inquiry = "Richiesta*"
+    checkbox = "Trattamento dei dati ai sensi di legge*"
+    submitBtn = "Invia"
 
 [params.services]
-  title = "Services"
-  description = """ I offer different services that aim to address different needs."""
+  title = "Consulenza"
+  description = """Offro sostegno e consulenza psicologica individuale e di coppia. Con il mio approccio di
+orientamento Cognitivo Comportamentale mi dedico alla mente, al corpo e alle pratiche del
+benessere. Le nostre sessioni dureranno 60min in presenza oppure online. Insieme lavoreremo sulle
+seguenti aree:"""
   [params.services.list]
     # You can add as much params.services.list.N as you like
     [params.services.list.0]
-      title= "Promotion of well-being and self-esteem"
+      title= "Promozione del benessere e dell’autostima"
       description= ""
-    [params.services.list.1]
-      title = "Personal growth and self-discovery"
+    [params.services.list.01]
+      title = "Crescita personale e la scoperta di sé"
       description= ""
-    [params.services.list.2]
-      title = "Improve relationships and communication skills"
+    [params.services.list.02]
+      title = "Migliorare le relazioni e le capacità comunicative"
       description= ""
-    [params.services.list.3]
-      title = "Anxiety and depression"
+    [params.services.list.03]
+      title = "Difficoltà legate all’ansia e alla depressione"
       description= ""
-    [params.services.list.4]
-      title = "Behavioral difficulties"
+    [params.services.list.04]
+      title = "Difficoltà comportamentali"
       description= ""
-    [params.services.list.5]
-      title = "Emotional dependence"
+    [params.services.list.05]
+      title = "Dipendenza affettiva"
       description= ""
-    [params.services.list.6]
-      title = "Manage stress and build resilience"
+    [params.services.list.06]
+      title = "Gestione dello stress e costruzione della resilienza"
       description= ""
-    [params.services.list.7]
-      title = "Improve performance and achieve goals"
+    [params.services.list.07]
+      title = "Migliorare le prestazioni e raggiungere gli obiettivi"
       description= ""
-    [params.services.list.8]
-      title = "Processing grief and dealing with trauma"
+    [params.services.list.08]
+      title = "Elaborazione del lutto e dei traumi"
       description= ""
-    [params.services.list.9]
-      title = "Stress management and personal crises"
+    [params.services.list.09]
+      title = "Gestione dei conflitti e crisi personali"
+      description= ""
+    [params.services.list.10]
+      title = "Espatrio e vita all’estero"
       description= ""
   
 # /. PAGES
 
 [params.socials]
   enabled = true # enables/disables the whole social section
-  callToAction= "Get connected with me on social networks >"
+  callToAction= "Entra in contatto con me sui canali social >"
       [[params.socials.link]]
         name = "instagram"
         link = "https://www.instagram.com/ervakambo/"
@@ -111,27 +110,27 @@ contentDir = "content/it"
 
 [params.schedules]
   enabledFooter = false # This will add the schedules on the footer too
-  enabledContacts = true
-  title = "Office hours" # For contacts page only
+  enabledContacts = true # This will add the schedule to the contact page
+  title = "Orari di ufficio" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
-    day1 = "Monday: 9am – 7pm"
-    day2 = "Tuesday: 9am – 7pm"
-    day3 = "Wednesday: 9am – 7pm"
-    day4 = "Thursday: 9am – 7pm"
-    day5 = "Friday: 9am – 7pm"
+    day1 = "Lunedì: 9:00 – 19:00"
+    day2 = "Martedì: 9:00 – 19:00"
+    day3 = "Mercoledì: 9:00 – 19:00"
+    day4 = "Giovedì: 9:00 – 19:00"
+    day5 = "Venerdì: 9:00 – 19:00"
     day6 = ""
     day7 = ""
 
 [params.footer]
-  extraDescription = "Tuscany Order of Psychologists No. 10278"
-  vat = "VAT No. 07339790482"
+  extraDescription = "Ordine degli Psicologi della Toscana N. 10278"
+  vat = "P.IVA 07339790482"
   [params.footer.navigate]
-  heading = "Navigate"   
+  heading = "Naviga"   
   [params.footer.contacts]
   enabled = true # enables/disables the whole contacts section
-  heading = "Contact"
+  heading = "Contatti"
   address = "Via della Robbia 23 50132, Firenze"
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"

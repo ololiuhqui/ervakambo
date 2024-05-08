@@ -58,7 +58,13 @@ contentDir = "content/en"
   title = "Get in touch!"
   formCallToAction = ""
   socialCallToAction = "Get in touch with me on the social platforms below. Feel free to text me on Whatsapp!"
-
+  [params.contacts.form]
+    firstname = "Firstname*"
+    lastname = "Lastname*"
+    email = "Email*"
+    Inquiry = "Inquiry*"
+    checkbox = "I accept that my data will be processed in accordance with the law*"
+    submitBtn = "Submit"
 [params.services]
   title = "Services"
   description = """ I offer individual and couples psychological support and consultation. My approach
@@ -121,7 +127,7 @@ the following areas:"""
 
 [params.schedules]
   enabledFooter = false # This will add the schedules on the footer too
-  enabledContacts = true
+  enabledContacts = true # This will add the schedule to the contact page
   title = "Office hours" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day

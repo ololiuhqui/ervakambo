@@ -55,6 +55,13 @@ contentDir = "content/sq"
   title = "Get in touch!"
   formCallToAction = ""
   socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
+  [params.contacts.form]
+    firstname = "Firstname*"
+    lastname = "Lastname*"
+    email = "Email*"
+    Inquiry = "asdas"
+    checkbox = "I accept that my data will be processed in accordance with the law*"
+    submitBtn = "DËRGO"
 
 [params.services]
   title = "Services"
@@ -62,34 +69,37 @@ contentDir = "content/sq"
   [params.services.list]
     # You can add as much params.services.list.N as you like
     [params.services.list.0]
-      title= "Promotion of well-being and self-esteem"
+      title= "Promozione del benessere e dell’autostima"
       description= ""
-    [params.services.list.1]
-      title = "Personal growth and self-discovery"
+    [params.services.list.01]
+      title = "Crescita personale e la scoperta di sé"
       description= ""
-    [params.services.list.2]
-      title = "Improve relationships and communication skills"
+    [params.services.list.02]
+      title = "Migliorare le relazioni e le capacità comunicative"
       description= ""
-    [params.services.list.3]
-      title = "Anxiety and depression"
+    [params.services.list.03]
+      title = "Difficoltà legate all’ansia e alla depressione"
       description= ""
-    [params.services.list.4]
-      title = "Behavioral difficulties"
+    [params.services.list.04]
+      title = "Difficoltà comportamentali"
       description= ""
-    [params.services.list.5]
-      title = "Emotional dependence"
+    [params.services.list.05]
+      title = "Dipendenza affettiva"
       description= ""
-    [params.services.list.6]
-      title = "Manage stress and build resilience"
+    [params.services.list.06]
+      title = "Gestione dello stress e costruzione della resilienza"
       description= ""
-    [params.services.list.7]
-      title = "Improve performance and achieve goals"
+    [params.services.list.07]
+      title = "Migliorare le prestazioni e raggiungere gli obiettivi"
       description= ""
-    [params.services.list.8]
-      title = "Processing grief and dealing with trauma"
+    [params.services.list.08]
+      title = "Elaborazione del lutto e dei traumi"
       description= ""
-    [params.services.list.9]
-      title = "Stress management and personal crises"
+    [params.services.list.09]
+      title = "Gestione dei conflitti e crisi personali"
+      description= ""
+    [params.services.list.10]
+      title = "Espatrio e vita all’estero"
       description= ""
   
 # /. PAGES
