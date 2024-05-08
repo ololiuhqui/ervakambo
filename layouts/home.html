@@ -10,9 +10,7 @@
       <h1 class="display-1 fw-bolder">
         <span class="d-inline">{{ .Site.Params.homepage.title }}</span>
       </h1>
-      <p class="text-justify">
-        {{ .Site.Params.homepage.description.intro | markdownify}}
-      </p>
+      <p class="text-justify">{{ .Site.Params.homepage.intro | markdownify}}</p>
     </div>
   </div>
   <div
@@ -25,12 +23,12 @@
 </div>
 <!-- Description -->
 {{ if .Site.Params.homepage.description.enabled}}
-<div class="row my-5 align-items-center">
+<div class="row my-4 align-items-center">
   <h2>{{ .Site.Params.homepage.description.secondTitle}}</h2>
   <p class="text-justify">
     {{ .Site.Params.homepage.description.paragraph | markdownify}}
   </p>
-  <p class="text-justify">
+  <p class="text-justify text-center">
     {{ .Site.Params.homepage.description.paragraph2 | markdownify}}
   </p>
 </div>

@@ -1,112 +1,115 @@
 # contentDir = 'content/en'
 disabled = false
-languageCode = 'en-US'
-languageName = 'English'
+languageCode = 'sq-AL'
+languageName = 'Albanian'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+copyright = "© 2024 all rights reserved - Designed by Ludovico Caluori 🎨"
 contentDir = "content/sq"
 
 # Change single params to false to remove from rendering
 [params]
-  subtitle = "Psychologist" # This goes in the header and in the site title
+  subtitle = "Psikologe" # This goes in the header and in the site title
 
   # PAGES
   [params.homepage]
-    preTitle = 'Psychologist in Florence'
+    preTitle = 'Psikologe në Firences'
     title = "Erva Kambo"
-    mainButton = "Contact me"
+    intro= """Të duhet të luftosh për të qënë vetvetja në një shoqëri që ndihet sikur nuk është menduar për ty? A
+    ke vështirësi për të kuptuar ose emërtuar ndjenjat, nevojat dhe dëshirat e tua? Ndoshta ndihesh i
+    padëgjuar, i padukshëm ose ndihesh sikur duhet të fshehësh disa pjesë të vehtes në mënyrë që të
+    pranohesh nga të tjerët? Është e vështirë të ndihesh mirë kur ndihesh i zbrazur dhe i mbingarkuar.
+    **Stresi, trauma** dhe **humbja e një personi të dashur** mund të ta vështirësojnë jetën e përditshme
+    dhe në të njëjtën kohë të të sfidojnë me probleme si **ankthi e depresioni**.
+    Terapia është ura që lidh betejat tona individuale me kujdesin ndaj vehtes dhe të tjerëve. Mbajtja e
+    marrëdhënieve, arritja e qëllimeve madje dhe përjetimi i gëzimit, shpesh mund të ndihen si një
+    betejë e vështirë në një botë shtypëse, dhe pesha e shtypjes mund të na izolojë nga vetja dhe të
+    tjerët. Pavarësisht sfidave që jeta të ka sjellë kohët e fundit, nuk ke pse të mbetesh këtu. Vetëm ti
+    mund të kurosh të gjitha pjesët e tua dhe të rifitosh ndjenjën e tërësisë dhe të dinjitetit. Nuk je
+    vetëm!
+        """
+    mainButton = "Kontakto"
     mainButtonRef = "https://wa.me/393801783513"
     [params.homepage.description]
     enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks
-    intro= """Are you feeling burnt out and exhausted from all the demands and
-        stresses in your life? Do you struggle to understand or name your
-        feelings, needs, and desires? Maybe you’re challenged in your
-        relationships to communicate freely, and you often find yourself feeling
-        disconnected, unheard or unsafe. It’s hard to feel good when you’re
-        feeling depleted and overwhelmed. **Stress, trauma** and **loss** can make it
-        hard to stay on top of our responsibilities and manage problems like
-        **anxiety** and **depression**. Despite the challenges that have gotten you down
-        lately, you don’t have to be stuck here. You can heal all parts of you
-        and reclaim your sense of wholeness and worthiness. You’re not alone in
-        feeling this way!
-        """
-    secondTitle = "Meet Erva Kambo, LP"
-    paragraph = """I am a licensed psychologist Florence-based (Italy).
-        I like to help people feel understood, face their pain and joy, and find
-        inner strength in difficult moments of their lives. Through a
-        relationship based on trust and empathy it will be possible to create a
-        safe and welcoming space in which you will have the opportunity to
-        deeply explore yourself and develop greater awareness of your emotions,
-        thoughts and behaviors. Together, we’ll explore issues related to
-        family, work, identity, gender, race and culture. I can help you move
-        towards a version of your life where emotional and physical discomfort
-        no longer dictate your decisions. Join me in a process of discovery and
-        growth!"""
+    secondTitle = "Njihuni me Erva Kambo, Psikologe"
+    paragraph = """Më pëlqen ti ndihmoj njerëzit të ndihen të kuptuar, të përballen me dhimbjen dhe gëzimin, dhe të
+    gjejnë forcë të brëndshme në momente të vështira të jetës së tyre. Nëpërmjet një marrëdhënieje të
+    bazuar në besim dhe ndjeshmëri, do të jetë e mundur të krijojmë një hapësirë të sigurt në të cilën do
+    të kesh mundësinë të zbulosh thellësisht vehten dhe të zhvillosh një ndërgjegjësim më të madh
+    për emocionet, mendimet dhe sjelljet e tua. Bashkë do të eksplorojmë çështje dhe probleme që
+    lidhen me familjen, punën, identitetin, gjininë dhe kulturën. Unë mund të të ndihmoj të lëvizësh
+    drejt një versioni të jetës tënde ku shqetësimi emocional dhe fizik nuk diktojnë më vendimet e tua.
+    Bashkohu me mua në një proces zbulimi dhe rritjeje!"""
+    paragraph2= "Ofroj shërbime në italisht, anglisht dhe shqip!"
 
 [params.office]
   title = "The Office"
- description = "You will find a welcoming office in the center of the beautiful city of Florence."
- buttonText = "Get directions" 
+ description = "Do të gjeni një zyrë mikpritëse në qendër të Firences."
+ buttonText = "Udhëzime" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23046.70708393103!2d11.250820486945312!3d43.77621354501747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54126faf8b3d%3A0x37e724bfc089c27a!2sVia%20dei%20della%20Robbia%2C%2023%2C%2050132%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1714143516043!5m2!1sit!2sit" # google maps embed link here
 
 [params.contacts]
-  title = "Get in touch!"
+  title = "Rezervoni një takim tani!!"
   formCallToAction = ""
-  socialCallToAction = "Or get in touch with me on the social platforms below, feel free to text me on Whatsapp!"
+  socialCallToAction = "Më kontaktoni në rrjetet sociale më poshtë. Mos ngurroni të më shkruani në Whatsapp!"
   [params.contacts.form]
-    firstname = "Firstname*"
-    lastname = "Lastname*"
-    email = "Email*"
-    Inquiry = "asdas"
-    checkbox = "I accept that my data will be processed in accordance with the law*"
+    firstname = "Emri*"
+    lastname = "Mbiemri*"
+    email = "E-mail*"
+    phone = "Telefon*"
+    Inquiry = "Kërkesa juaj*"
+    checkbox = "Përpunimi i të dhënave në pajtim me ligjin*"
     submitBtn = "DËRGO"
 
 [params.services]
-  title = "Services"
-  description = """ I offer different services that aim to address different needs."""
+  title = "Shërbimet"
+  description = """ Ofroj mbështetje psikologjike dhe këshillim individual dhe në çift. Me qasjen time të
+orientimit konjitiv - sjellës i përkushtohem mendjes, ndjenjave dhe praktikave të mirëqenies.
+Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mund të punojmë në
+fushat e mëposhtme:"""
   [params.services.list]
     # You can add as much params.services.list.N as you like
     [params.services.list.0]
-      title= "Promozione del benessere e dell’autostima"
+      title= "Promovimi i mirëqënies dhe i vetëvlerësimit"
       description= ""
     [params.services.list.01]
-      title = "Crescita personale e la scoperta di sé"
+      title = "Rritja personale dhe vetë-zbulimi"
       description= ""
     [params.services.list.02]
-      title = "Migliorare le relazioni e le capacità comunicative"
+      title = "Përmirësimi i marrëdhënieve dhe i aftësive të komunikimit"
       description= ""
     [params.services.list.03]
-      title = "Difficoltà legate all’ansia e alla depressione"
+      title = "Ankth dhe depresion"
       description= ""
     [params.services.list.04]
-      title = "Difficoltà comportamentali"
+      title = "Vështirësi në sjellje"
       description= ""
     [params.services.list.05]
-      title = "Dipendenza affettiva"
+      title = "Varësia emocionale"
       description= ""
     [params.services.list.06]
-      title = "Gestione dello stress e costruzione della resilienza"
+      title = "Menaxhimi i stresit dhe ndërtimi i qëndrueshmërisë"
       description= ""
     [params.services.list.07]
-      title = "Migliorare le prestazioni e raggiungere gli obiettivi"
+      title = "Përmirësimi i performancës dhe arritja e qëllimeve"
       description= ""
     [params.services.list.08]
-      title = "Elaborazione del lutto e dei traumi"
+      title = "Përpunimi i humbjes dhe përballja me traumën"
       description= ""
     [params.services.list.09]
-      title = "Gestione dei conflitti e crisi personali"
+      title = "Menaxhimi i stresit dhe krizat personale"
       description= ""
     [params.services.list.10]
-      title = "Espatrio e vita all’estero"
+      title = "“Mërgimi dhe jeta jashtë shtetit”"
       description= ""
   
 # /. PAGES
 
 [params.socials]
   enabled = true # enables/disables the whole social section
-  callToAction= "Get connected with me on social networks >"
+  callToAction= "Lidhu me mua në rrjetet sociale >"
       [[params.socials.link]]
         name = "instagram"
         link = "https://www.instagram.com/ervakambo/"
@@ -122,26 +125,26 @@ contentDir = "content/sq"
 [params.schedules]
   enabledFooter = false # This will add the schedules on the footer too
   enabledContacts = true
-  title = "Office hours" # For contacts page only
+  title = "Oraret" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
-    day1 = "Monday: 9am – 7pm"
-    day2 = "Tuesday: 9am – 7pm"
-    day3 = "Wednesday: 9am – 7pm"
-    day4 = "Thursday: 9am – 7pm"
-    day5 = "Friday: 9am – 7pm"
+    day1 = "E Hënë: 9:00 - 19:00"
+    day2 = "E Martë: 9:00 - 19:00"
+    day3 = "E Mërkurë: 9:00 - 19:00"
+    day4 = "E Enjte: 9:00 - 19:00"
+    day5 = "E Premte: 9:00 - 19:00"
     day6 = ""
     day7 = ""
 
 [params.footer]
-  extraDescription = "Tuscany Order of Psychologists No. 10278"
-  vat = "VAT No. 07339790482"
+  extraDescription = "Urdhri i Psikologëve të Toskanës Nr. 10278"
+  vat = "TVSH 07339790482"
   [params.footer.navigate]
-  heading = "Navigate"   
+  heading = "Navigoni"   
   [params.footer.contacts]
   enabled = true # enables/disables the whole contacts section
-  heading = "Contact"
+  heading = "kontakt"
   address = "Via della Robbia 23 50132, Firenze"
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
@@ -151,18 +154,18 @@ contentDir = "content/sq"
 [menus]
 # If you add a new language remember to change the pageRef to match the desired content folder!
   [[menus.main]]
-  name = "Home"
+  name = "Kryefaqja"
   pageRef = "/"
   weight = 1
   [[menus.main]]
-  name = "Services"
+  name = "Shërbimet"
   pageRef = "/services"
   weight = 2
   [[menus.main]]
-  name = "The Office"
+  name = "Zyra"
   pageRef = "/office"
   weight = 3
   [[menus.main]]
-  name = "Contacts"
+  name = "Kontaktet"
   pageRef = "/contacts"
   weight = 4

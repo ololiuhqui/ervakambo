@@ -3,7 +3,7 @@ disabled = false
 languageCode = 'en-US'
 languageName = 'English'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 all rights reserved - Made by Ludovico Caluori 🎨"
+copyright = "© 2024 all rights reserved - Designed by Ludovico Caluori 🎨"
 contentDir = "content/en"
 
 # Change single params to false to remove from rendering
@@ -14,10 +14,6 @@ contentDir = "content/en"
   [params.homepage]
     preTitle = 'Psychologist in Florence'
     title = "Erva Kambo"
-    mainButton = "Contact me"
-    mainButtonRef = "https://wa.me/393801783513"
-    [params.homepage.description]
-    enabled = true
     # You can use some markdown safely for the description as long as you don't include line breaks
     intro= """Are you feeling burnt out and exhausted from all the demands and
         stresses in your life? Do you struggle to understand or name your
@@ -31,6 +27,10 @@ contentDir = "content/en"
         and reclaim your sense of wholeness and worthiness. You’re not alone in
         feeling this way!
         """
+    mainButton = "Contact me"
+    mainButtonRef = "https://wa.me/393801783513"
+    [params.homepage.description]
+    enabled = true
     secondTitle = "Meet Erva Kambo, LP"
     paragraph = """I am a licensed psychologist Florence-based (Italy).
         I like to help people feel understood, face their pain and joy, and find
@@ -61,7 +61,8 @@ contentDir = "content/en"
   [params.contacts.form]
     firstname = "Firstname*"
     lastname = "Lastname*"
-    email = "Email*"
+    email = "E-mail*"
+    phone = "Phone Number*"
     Inquiry = "Inquiry*"
     checkbox = "I accept that my data will be processed in accordance with the law*"
     submitBtn = "Submit"

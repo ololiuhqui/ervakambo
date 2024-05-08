@@ -3,7 +3,7 @@ disabled = false
 languageCode = 'it-IT'
 languageName = 'Italian'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 all rights reserved - Design by Ludovico Caluori 🎨"
+copyright = "© 2024 all rights reserved - Designed by Ludovico Caluori 🎨"
 contentDir = "content/it"
 
 # Change single params to false to remove from rendering
@@ -14,11 +14,6 @@ contentDir = "content/it"
   [params.homepage]
     preTitle = 'Psicologa a Firenze'
     title = "Erva Kambo"
-    mainButton = "Contattami"
-    mainButtonRef = "https://wa.me/393801783513"
-    [params.homepage.description]
-    enabled = true
-    # You can use some markdown safely for the description as long as you don't include line breaks
     intro= """Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e
         ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla
         fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai
@@ -27,8 +22,15 @@ contentDir = "content/it"
         familiare, lavorativo, di coppia, culturale e di genere. La tua **crescita personale** è la mia priorità e
         sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo **benessere emotivo**.
         """
+    mainButton = "Contattami"
+    mainButtonRef = "https://wa.me/393801783513"
+    [params.homepage.description]
+    enabled = true
+    # You can use some markdown safely for the description as long as you don't include line breaks
     secondTitle = ""
     paragraph = """"""
+    paragraph2= "Colloqui svolti in italiano, inglese e albanese!"
+
 
 [params.office]
  title = "Lo Studio"
@@ -44,7 +46,8 @@ contentDir = "content/it"
   [params.contacts.form]
     firstname = "Nome*"
     lastname = "Cognome*"
-    email = "Email*"
+    email = "E-mail*"
+    phone = "Numero di telefono*"
     Inquiry = "Richiesta*"
     checkbox = "Trattamento dei dati ai sensi di legge*"
     submitBtn = "Invia"
@@ -111,7 +114,7 @@ seguenti aree:"""
 [params.schedules]
   enabledFooter = false # This will add the schedules on the footer too
   enabledContacts = true # This will add the schedule to the contact page
-  title = "Orari di ufficio" # For contacts page only
+  title = "Orari di apertura" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
