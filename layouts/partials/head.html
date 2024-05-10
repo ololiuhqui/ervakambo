@@ -1,11 +1,36 @@
 <head>
-  <title>{{ .Site.Title }} - {{ .Site.Params.subtitle }}</title>
+  <title>{{ .Site.Title }} - {{ .Page.Name }}</title>
   <meta charset="utf-8" />
-  <meta
-    name="description"
-    content="Website meta description for google search results go here"
-  />
+  <meta name="description" content="{{.Site.Params.homepage.intro}}" />
   <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Erva Kambo - Psicologa" />
+  <meta
+    itemprop="description"
+    content="Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore **consapevolezza delle tue emozioni, pensieri e comportamenti**. Insieme esploreremo le difficoltà in ambito relazionale, familiare, lavorativo, di coppia, culturale e di genere. La tua **crescita personale** è la mia priorità e sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo **benessere emotivo**."
+  />
+  <meta itemprop="image" content="{{ "img/profile.jpg" | absURL}}" />
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://ervakambo.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Erva Kambo - Psicologa" />
+  <meta
+    property="og:description"
+    content="Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore **consapevolezza delle tue emozioni, pensieri e comportamenti**. Insieme esploreremo le difficoltà in ambito relazionale, familiare, lavorativo, di coppia, culturale e di genere. La tua **crescita personale** è la mia priorità e sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo **benessere emotivo**."
+  />
+  <meta property="og:image" content="{{ "img/profile.jpg" | absURL}}" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Erva Kambo - Psicologa" />
+  <meta
+    name="twitter:description"
+    content="Mi piace aiutare le persone a sentirsi comprese, ad affrontare i propri dolori e le proprie gioie, e ritrovare la forza interiore nei momenti difficili della loro vita. Attraverso una relazione basata sulla fiducia e l’empatia, sarà possibile dare vita ad uno spazio sicuro e accogliente in cui avrai l’opportunità di esplorare profondamente te stesso e sviluppare una maggiore **consapevolezza delle tue emozioni, pensieri e comportamenti**. Insieme esploreremo le difficoltà in ambito relazionale, familiare, lavorativo, di coppia, culturale e di genere. La tua **crescita personale** è la mia priorità e sono qui per accompagnarti in ogni fase del tuo percorso verso il tuo **benessere emotivo**."
+  />
+  <meta name="twitter:image" content="{{ "img/profile.jpg" | absURL}}" />
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
