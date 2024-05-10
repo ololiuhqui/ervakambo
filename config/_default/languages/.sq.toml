@@ -44,7 +44,7 @@ contentDir = "content/sq"
     paragraph2= "Ofroj shërbime në italisht, anglisht dhe shqip!"
 
 [params.office]
-  title = "The Office"
+ title = "Zyra"
  description = "Do të gjeni një zyrë mikpritëse në qendër të Firences."
  buttonText = "Udhëzime" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)

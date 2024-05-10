@@ -1,5 +1,8 @@
 <head>
-  <title>{{ .Site.Title }} - {{ .Page.Name }}</title>
+  <title>
+    {{ .Site.Title }} {{if .Page.IsHome}}- {{.Site.Params.subtitle}} {{end}}
+    {{if not .Page.IsHome}}- {{ .Page.Name }} {{end}}
+  </title>
   <meta charset="utf-8" />
   <meta name="description" content="{{.Site.Params.homepage.intro}}" />
   <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
