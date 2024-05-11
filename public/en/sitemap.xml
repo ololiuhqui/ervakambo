@@ -2,6 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ervakambo.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ervakambo.com/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ervakambo.com/sq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ervakambo.com/en/"
+                />
+  </url><url>
     <loc>https://ervakambo.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -22,35 +39,18 @@
     <loc>https://ervakambo.com/en/contacts/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="sq"
-                href="https://ervakambo.com/sq/contacts/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="https://ervakambo.com/it/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="sq"
+                href="https://ervakambo.com/sq/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://ervakambo.com/en/contacts/"
-                />
-  </url><url>
-    <loc>https://ervakambo.com/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://ervakambo.com/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sq"
-                href="https://ervakambo.com/sq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ervakambo.com/en/"
                 />
   </url><url>
     <loc>https://ervakambo.com/en/services/</loc>
