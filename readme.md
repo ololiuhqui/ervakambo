@@ -1,0 +1,2 @@
+- how to modify site variables
+- how to modify page variables (like metadesc)

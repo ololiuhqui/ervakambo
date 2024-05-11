@@ -104,7 +104,7 @@ seguenti aree:"""
         link = "https://www.instagram.com/ervakambo/"
       [[params.socials.link]]
         name = "linkedin"
-        link = "https://www.linkedin.com/in/erva-kambo"
+        link = "https://www.linkedin.com/in/ervakambo/"
       [[params.socials.link]]
         name = "whatsapp"
         link = "https://wa.me/393801783513"

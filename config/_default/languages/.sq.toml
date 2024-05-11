@@ -45,7 +45,7 @@ contentDir = "content/sq"
 
 [params.office]
  title = "Zyra"
- description = "Do të gjeni një zyrë mikpritëse në qendër të Firences."
+ description = "Do të gjeni një zyrë mikpritëse në qendër të Firence."
  buttonText = "Udhëzime" 
  buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23046.70708393103!2d11.250820486945312!3d43.77621354501747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54126faf8b3d%3A0x37e724bfc089c27a!2sVia%20dei%20della%20Robbia%2C%2023%2C%2050132%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1714143516043!5m2!1sit!2sit" # google maps embed link here
@@ -89,7 +89,7 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
       title = "Varësia emocionale"
       description= ""
     [params.services.list.06]
-      title = "Menaxhimi i stresit dhe ndërtimi i qëndrueshmërisë"
+      title = "Ndërtimi i qëndrueshmërisë"
       description= ""
     [params.services.list.07]
       title = "Përmirësimi i performancës dhe arritja e qëllimeve"
@@ -101,7 +101,7 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
       title = "Menaxhimi i stresit dhe krizat personale"
       description= ""
     [params.services.list.10]
-      title = "“Mërgimi dhe jeta jashtë shtetit”"
+      title = "Mërgimi dhe jeta jashtë shtetit"
       description= ""
   
 # /. PAGES
@@ -114,7 +114,7 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
         link = "https://www.instagram.com/ervakambo/"
       [[params.socials.link]]
         name = "linkedin"
-        link = "https://www.linkedin.com/in/erva-kambo"
+        link = "https://www.linkedin.com/in/ervakambo/"
       [[params.socials.link]]
         name = "whatsapp"
         link = "https://wa.me/393801783513"
