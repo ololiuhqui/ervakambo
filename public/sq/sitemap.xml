@@ -19,23 +19,6 @@
                 href="https://ervakambo.com/sq/"
                 />
   </url><url>
-    <loc>https://ervakambo.com/sq/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ervakambo.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://ervakambo.com/it/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sq"
-                href="https://ervakambo.com/sq/categories/"
-                />
-  </url><url>
     <loc>https://ervakambo.com/sq/contacts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -68,23 +51,6 @@
                 rel="alternate"
                 hreflang="sq"
                 href="https://ervakambo.com/sq/services/"
-                />
-  </url><url>
-    <loc>https://ervakambo.com/sq/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ervakambo.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://ervakambo.com/it/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sq"
-                href="https://ervakambo.com/sq/tags/"
                 />
   </url><url>
     <loc>https://ervakambo.com/sq/office/</loc>

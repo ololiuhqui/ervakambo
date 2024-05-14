@@ -5,6 +5,7 @@ defaultContentLanguage = 'it'
 defaultContentLanguageInSubDir = true
 copyright = 'Made by Ludovico Caluori - 2024'
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"] # This disables categories and tags and removes them from sitemap
 
 
 [module]
