@@ -1,2 +1,3 @@
 - how to modify site variables
 - how to modify page variables (like metadesc)
+- the 404 page is added manually to the public folder because github supports 404 only in the root of the folder (cannot do custom 404 for each language)
