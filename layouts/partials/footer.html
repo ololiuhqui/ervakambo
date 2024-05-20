@@ -126,6 +126,10 @@
 
   {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }} {{ $js := slice
   $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
-
+  <!-- language-detect script -->
+  {{- $customJs := resources.Get "js/detectLanguage.js" -}} {{- $js = $js |
+  js.Build (dict "params" (dict "api" "{{.Site.AbsURL}}api")) -}}
+  <script type="module" src="{{ $customJs.Permalink }}"></script>
+  <!--  -->
   <script src="{{$js.RelPermalink}}" defer></script>
 </footer>
