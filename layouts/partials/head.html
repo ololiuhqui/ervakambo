@@ -3,7 +3,11 @@
   <meta charset="utf-8" />
   <meta name="description" content="{{.Page.Params.params.metaDesc}}" />
   <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+  {{if eq .Page.Layout "404"}}
+  <meta name="robots" content="noindex" />
+  {{else}}
   <meta name="robots" content="index,follow" />
+  {{end}}
 
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="Erva Kambo - Psicologa" />
