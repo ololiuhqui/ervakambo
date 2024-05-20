@@ -138,7 +138,9 @@ seguenti aree:"""
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
-  
+
+[params.notfound]
+  title = "404, pagina non trovata" # text for 404 page
  
 [menus]
 # If you add a new language remember to change the pageRef to match the desired content folder!

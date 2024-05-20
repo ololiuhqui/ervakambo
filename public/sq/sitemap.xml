@@ -19,6 +19,23 @@
                 href="https://ervakambo.com/sq/"
                 />
   </url><url>
+    <loc>https://ervakambo.com/sq/404/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ervakambo.com/en/404/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ervakambo.com/it/404/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq"
+                href="https://ervakambo.com/sq/404/"
+                />
+  </url><url>
     <loc>https://ervakambo.com/sq/contacts/</loc>
     <xhtml:link
                 rel="alternate"

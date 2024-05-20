@@ -148,6 +148,9 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
+
+[params.notfound]
+  title = "404, page not found" # text for 404 page
   
  
 [menus]
