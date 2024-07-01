@@ -144,7 +144,7 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
   [params.footer.contacts]
   enabled = true # enables/disables the whole contacts section
   heading = "kontakt"
-  address = "Via della Robbia 23 50132, Firenze"
+  address = "Viale Francesco Redi 127, Firenze"
   mail = "psicologa.kambo@gmail.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
