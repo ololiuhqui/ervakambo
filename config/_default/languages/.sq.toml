@@ -47,9 +47,8 @@ contentDir = "content/sq"
  title = "Zyra"
  description = "Do të gjeni një zyrë mikpritëse në qendër të Firence."
  buttonText = "Udhëzime" 
- buttonLink = "https://maps.app.goo.gl/fxmD9cQXUVS5Xp9t8" # google maps share link here (for button)
- mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23046.70708393103!2d11.250820486945312!3d43.77621354501747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54126faf8b3d%3A0x37e724bfc089c27a!2sVia%20dei%20della%20Robbia%2C%2023%2C%2050132%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1714143516043!5m2!1sit!2sit" # google maps embed link here
-
+ buttonLink = "https://maps.app.goo.gl/Vr4NJT2UjEoRnr5B8" # google maps share link here (for button)
+ mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.2347138446667!2d11.229217612345396!3d43.78874244353238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56bfd81a4af9%3A0x8557c053da3c550e!2sViale%20Francesco%20Redi%2C%20127%2C%2050144%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1720106026343!5m2!1sit!2sit" # google maps embed link here
 [params.contacts]
   title = "Rezervoni një takim tani!"
   formCallToAction = ""
