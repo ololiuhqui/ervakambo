@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erva Kambo</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://ervakambo.com/en/</link>
     <description>Recent content on Erva Kambo</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024 all rights reserved - Designed by Ludovico Caluori 🎨</copyright>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ervakambo.com/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contacts |</title>
-      <link>http://localhost:1313/en/contacts/</link>
+      <link>https://ervakambo.com/en/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/contacts/</guid>
+      <guid>https://ervakambo.com/en/contacts/</guid>
       <description></description>
     </item>
     <item>
       <title>Page not found |</title>
-      <link>http://localhost:1313/en/404/</link>
+      <link>https://ervakambo.com/en/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/404/</guid>
+      <guid>https://ervakambo.com/en/404/</guid>
       <description></description>
     </item>
     <item>
       <title>Services |</title>
-      <link>http://localhost:1313/en/services/</link>
+      <link>https://ervakambo.com/en/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/services/</guid>
+      <guid>https://ervakambo.com/en/services/</guid>
       <description></description>
     </item>
     <item>
       <title>The Office |</title>
-      <link>http://localhost:1313/en/office/</link>
+      <link>https://ervakambo.com/en/office/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/office/</guid>
+      <guid>https://ervakambo.com/en/office/</guid>
       <description></description>
     </item>
   </channel>
