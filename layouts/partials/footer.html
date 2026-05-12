@@ -117,7 +117,8 @@
 
   <!-- Copyright -->
   <div class="copyright text-light py-2 text-center">
-    <p class="my-1 fs-6 text-muted">{{ .Site.Copyright}}</p>
+    <p class="my-1 fs-6 text-muted">{{ .Site.Copyright | markdownify}}</p>
+    <a class="my-1 fs-6 text-muted" href="{{ absLangURL "privacy" }}  ">Privacy and Cookies policy</a>
   </div>
 
   <!-- Copyright -->

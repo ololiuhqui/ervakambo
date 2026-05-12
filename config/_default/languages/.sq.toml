@@ -3,7 +3,6 @@ disabled = false
 languageCode = 'sq-AL'
 languageName = 'Albanian'
 title = 'Erva Kambo' # This will go in the Header as well
-copyright = "© 2024 all rights reserved - Designed by Ludovico Caluori 🎨"
 contentDir = "content/sq"
 
 # Change single params to false to remove from rendering

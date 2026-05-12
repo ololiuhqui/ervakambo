@@ -2,89 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ervakambo.com/en/</loc>
+    <loc>http://localhost:39377/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://ervakambo.com/it/"
+                href="http://localhost:39377/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="https://ervakambo.com/sq/"
+                href="http://localhost:39377/sq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://ervakambo.com/en/"
+                href="http://localhost:39377/en/"
                 />
   </url><url>
-    <loc>https://ervakambo.com/en/contacts/</loc>
+    <loc>http://localhost:39377/en/contacts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://ervakambo.com/it/contacts/"
+                href="http://localhost:39377/it/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="https://ervakambo.com/sq/contacts/"
+                href="http://localhost:39377/sq/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://ervakambo.com/en/contacts/"
+                href="http://localhost:39377/en/contacts/"
                 />
   </url><url>
-    <loc>https://ervakambo.com/en/404/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sq-AL"
-                href="https://ervakambo.com/sq/404/"
-                />
+    <loc>http://localhost:39377/en/privacy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://ervakambo.com/it/404/"
+                href="http://localhost:39377/it/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq-AL"
+                href="http://localhost:39377/sq/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://ervakambo.com/en/404/"
+                href="http://localhost:39377/en/privacy/"
                 />
   </url><url>
-    <loc>https://ervakambo.com/en/services/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-IT"
-                href="https://ervakambo.com/it/services/"
-                />
+    <loc>http://localhost:39377/en/404/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="https://ervakambo.com/sq/services/"
+                href="http://localhost:39377/sq/404/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:39377/it/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://ervakambo.com/en/services/"
+                href="http://localhost:39377/en/404/"
                 />
   </url><url>
-    <loc>https://ervakambo.com/en/office/</loc>
+    <loc>http://localhost:39377/en/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://ervakambo.com/it/office/"
+                href="http://localhost:39377/it/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="https://ervakambo.com/sq/office/"
+                href="http://localhost:39377/sq/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://ervakambo.com/en/office/"
+                href="http://localhost:39377/en/services/"
+                />
+  </url><url>
+    <loc>http://localhost:39377/en/office/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:39377/it/office/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sq-AL"
+                href="http://localhost:39377/sq/office/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:39377/en/office/"
                 />
   </url>
 </urlset>

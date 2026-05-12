@@ -3,11 +3,10 @@ languageCode = ''
 title = 'Erva Kambo'
 defaultContentLanguage = 'it'
 defaultContentLanguageInSubDir = true
-copyright = 'Made by Ludovico Caluori - 2024'
+copyright = "© 2026 all rights reserved - Designed by Ludovico Caluori 🎨 "
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"] # This disables categories and tags and removes them from sitemap
 googleAnalytics = "G-VS40WF4TQM"
-
 
 [module]
     [[module.mounts]]
