@@ -47,7 +47,7 @@ contentDir = "content/it"
     email = "E-mail*"
     phone = "Numero di telefono*"
     Inquiry = "Richiesta*"
-    checkbox = "Trattamento dei dati ai sensi di legge*"
+    checkbox = "Ho letto e accetto [l’informativa privacy](/privacy)*"
     submitBtn = "Invia"
 
 [params.services]

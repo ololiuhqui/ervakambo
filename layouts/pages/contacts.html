@@ -115,7 +115,8 @@
                       id="exampleCheck1"
                     />
                     <label class="form-check-label" for="exampleCheck1"
-                      >{{.Site.Params.contacts.form.checkbox}}</label
+                      >{{.Site.Params.contacts.form.checkbox |
+                      markdownify}}</label
                     >
                   </div>
 

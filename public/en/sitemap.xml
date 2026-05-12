@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:39377/en/</loc>
+    <loc>http://localhost:37669/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/"
+                href="http://localhost:37669/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/"
+                href="http://localhost:37669/sq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/"
+                href="http://localhost:37669/en/"
                 />
   </url><url>
-    <loc>http://localhost:39377/en/contacts/</loc>
+    <loc>http://localhost:37669/en/contacts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/contacts/"
+                href="http://localhost:37669/it/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/contacts/"
+                href="http://localhost:37669/sq/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/contacts/"
+                href="http://localhost:37669/en/contacts/"
                 />
   </url><url>
-    <loc>http://localhost:39377/en/privacy/</loc>
+    <loc>http://localhost:37669/en/privacy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/privacy/"
+                href="http://localhost:37669/it/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/privacy/"
+                href="http://localhost:37669/sq/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/privacy/"
+                href="http://localhost:37669/en/privacy/"
                 />
   </url><url>
-    <loc>http://localhost:39377/en/404/</loc>
+    <loc>http://localhost:37669/en/404/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/404/"
+                href="http://localhost:37669/sq/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/404/"
+                href="http://localhost:37669/it/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/404/"
+                href="http://localhost:37669/en/404/"
                 />
   </url><url>
-    <loc>http://localhost:39377/en/services/</loc>
+    <loc>http://localhost:37669/en/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/services/"
+                href="http://localhost:37669/it/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/services/"
+                href="http://localhost:37669/sq/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/services/"
+                href="http://localhost:37669/en/services/"
                 />
   </url><url>
-    <loc>http://localhost:39377/en/office/</loc>
+    <loc>http://localhost:37669/en/office/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://localhost:39377/it/office/"
+                href="http://localhost:37669/it/office/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sq-AL"
-                href="http://localhost:39377/sq/office/"
+                href="http://localhost:37669/sq/office/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:39377/en/office/"
+                href="http://localhost:37669/en/office/"
                 />
   </url>
 </urlset>

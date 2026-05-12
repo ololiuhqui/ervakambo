@@ -66,7 +66,7 @@ contentDir = "content/en"
     email = "E-mail*"
     phone = "Phone Number*"
     Inquiry = "Inquiry*"
-    checkbox = "I accept that my data will be processed in accordance with the law*"
+    checkbox = "I have read and accept [the privacy notice](/privacy)*"
     submitBtn = "Submit"
 [params.services]
   title = "Services"

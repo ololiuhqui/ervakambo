@@ -58,7 +58,7 @@ contentDir = "content/sq"
     email = "E-mail*"
     phone = "Telefon*"
     Inquiry = "Kërkesa juaj*"
-    checkbox = "Përpunimi i të dhënave në pajtim me ligjin*"
+    checkbox = "Kam lexuar dhe pranoj [njoftimin për privatësinë](/privacy)*"
     submitBtn = "DËRGO"
 
 [params.services]
