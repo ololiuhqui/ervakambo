@@ -47,7 +47,7 @@ contentDir = "content/it"
     email = "E-mail*"
     phone = "Numero di telefono*"
     Inquiry = "Richiesta*"
-    checkbox = "Ho letto e accetto [l’informativa privacy](/privacy)*"
+    checkbox = "Ho letto e accetto la"
     submitBtn = "Invia"
 
 [params.services]
@@ -116,11 +116,11 @@ seguenti aree:"""
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
-    day1 = "Lunedì: 9:00 – 19:00"
-    day2 = "Martedì: 9:00 – 19:00"
-    day3 = "Mercoledì: 9:00 – 19:00"
-    day4 = "Giovedì: 9:00 – 19:00"
-    day5 = "Venerdì: 9:00 – 19:00"
+    day1 = "Lunedì: 9:00 – 18:00"
+    day2 = "Martedì: 9:00 – 18:00"
+    day3 = "Mercoledì: 9:00 – 18:00"
+    day4 = "Giovedì: 9:00 – 18:00"
+    day5 = "Venerdì: 9:00 – 18:00"
     day6 = ""
     day7 = ""
 
@@ -133,7 +133,7 @@ seguenti aree:"""
   enabled = true # enables/disables the whole contacts section
   heading = "Contatti"
   address = "Viale Francesco Redi 127, Firenze"
-  mail = "psicologa.kambo@gmail.com"
+  mail = "psicologa@studiokambo.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
 

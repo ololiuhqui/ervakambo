@@ -58,7 +58,7 @@ contentDir = "content/sq"
     email = "E-mail*"
     phone = "Telefon*"
     Inquiry = "Kërkesa juaj*"
-    checkbox = "Kam lexuar dhe pranoj [njoftimin për privatësinë](/privacy)*"
+    checkbox = "Kam lexuar dhe pranoj"
     submitBtn = "DËRGO"
 
 [params.services]
@@ -126,11 +126,11 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
-    day1 = "E Hënë: 9:00 - 19:00"
-    day2 = "E Martë: 9:00 - 19:00"
-    day3 = "E Mërkurë: 9:00 - 19:00"
-    day4 = "E Enjte: 9:00 - 19:00"
-    day5 = "E Premte: 9:00 - 19:00"
+    day1 = "E Hënë: 9:00 - 18:00"
+    day2 = "E Martë: 9:00 - 18:00"
+    day3 = "E Mërkurë: 9:00 - 18:00"
+    day4 = "E Enjte: 9:00 - 18:00"
+    day5 = "E Premte: 9:00 - 18:00"
     day6 = ""
     day7 = ""
 
@@ -143,7 +143,7 @@ Seancat tona do të zgjasin 60 minuta personalisht ose online. Së bashku do mun
   enabled = true # enables/disables the whole contacts section
   heading = "kontakt"
   address = "Viale Francesco Redi 127, Firenze"
-  mail = "psicologa.kambo@gmail.com"
+  mail = "psicologa@studiokambo.com"
   mail2 = "erva.kambo@psypec.it"
   phone = "+39 3801783513"
 

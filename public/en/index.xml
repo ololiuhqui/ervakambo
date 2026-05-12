@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erva Kambo</title>
-    <link>http://localhost:37669/en/</link>
+    <link>http://localhost:40121/en/</link>
     <description>Recent content on Erva Kambo</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2026 all rights reserved - Designed by Ludovico Caluori 🎨 </copyright>
-    <atom:link href="http://localhost:37669/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40121/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contacts |</title>
-      <link>http://localhost:37669/en/contacts/</link>
+      <link>http://localhost:40121/en/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37669/en/contacts/</guid>
+      <guid>http://localhost:40121/en/contacts/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie and privacy policy |</title>
-      <link>http://localhost:37669/en/privacy/</link>
+      <link>http://localhost:40121/en/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37669/en/privacy/</guid>
+      <guid>http://localhost:40121/en/privacy/</guid>
       <description>Privacy Notice Privacy Notice Dear User, pursuant to EU Regulation 2016/679 (hereinafter &amp;ldquo;GDPR&amp;rdquo;), this notice describes the methods of processing personal data of users who visit this website.&#xA;DATA CONTROLLER The Data Controller is: Dr. Erva Kambo Viale Francesco Redi 127, 50144 Florence (FI) VAT ID: 07339790482 Email: psicologa@studiokambo.com The Controller can be contacted for any request related to personal data.&#xA;TYPES OF DATA PROCESSED a) Browsing data The IT systems and software procedures responsible for the operation of this website acquire, during their normal operation, some personal data whose transmission is implicit in the use of Internet communication protocols.</description>
     </item>
     <item>
       <title>Page not found |</title>
-      <link>http://localhost:37669/en/404/</link>
+      <link>http://localhost:40121/en/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37669/en/404/</guid>
+      <guid>http://localhost:40121/en/404/</guid>
       <description></description>
     </item>
     <item>
       <title>Services |</title>
-      <link>http://localhost:37669/en/services/</link>
+      <link>http://localhost:40121/en/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37669/en/services/</guid>
+      <guid>http://localhost:40121/en/services/</guid>
       <description></description>
     </item>
     <item>
       <title>The Office |</title>
-      <link>http://localhost:37669/en/office/</link>
+      <link>http://localhost:40121/en/office/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37669/en/office/</guid>
+      <guid>http://localhost:40121/en/office/</guid>
       <description></description>
     </item>
   </channel>

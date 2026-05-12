@@ -66,7 +66,7 @@ contentDir = "content/en"
     email = "E-mail*"
     phone = "Phone Number*"
     Inquiry = "Inquiry*"
-    checkbox = "I have read and accept [the privacy notice](/privacy)*"
+    checkbox = "I have read and accept the"
     submitBtn = "Submit"
 [params.services]
   title = "Services"
@@ -135,11 +135,11 @@ the following areas:"""
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
-    day1 = "Monday: 9am – 7pm"
-    day2 = "Tuesday: 9am – 7pm"
-    day3 = "Wednesday: 9am – 7pm"
-    day4 = "Thursday: 9am – 7pm"
-    day5 = "Friday: 9am – 7pm"
+    day1 = "Monday: 9am – 6pm"
+    day2 = "Tuesday: 9am – 6pm"
+    day3 = "Wednesday: 9am – 6pm"
+    day4 = "Thursday: 9am – 6pm"
+    day5 = "Friday: 9am – 6pm"
     day6 = ""
     day7 = ""
 
